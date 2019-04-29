@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang = "vi">
 	<head>
-		<title> X�Y D?NG SO �? L?P H?C:</title>
+		<title> XÂY DỰNG SO ÐỒ LỚP HỌC:</title>
 		<meta charset="utf-8" />
-		<meta name="author" content="HO�NG �NH and HUY?N TRANG" />
+		<meta name="author" content="HOÀNG ÁNH and HUYỀN TRANG" />
 		<meta name="keyword" content="so d? l?p h?c, so d? html co b?n" />
 	</head>
 	<body>
-		<div id="sodolop" style="color: red; text-align: center">  <h2>SO �? L?P 59TH</h2> </div>
+		<div id="sodolop" style="color: red; text-align: center">  <h2>SO ÐO LOP 59TH</h2> </div>
 		
-		<!--k�ch thu?c c?a khung bao b�n ngo�i, chi?u r?ng , chi?u cao, l?-->
+		<!--kích thước của khung bao bên ngoài, chiều rộng , chiều cao, lề-->
 		<div id= "kichthuockhung" style="width: 900px; height: auto; margin: auto; ">	
 			
-			<!--overflow: auto-tr�nh b? tr�n d? li?u, c�ch ph?n d?u,display: flex_t? can ch?nh trang -->
+			<!--overflow: auto-tránh bị tràn dữ liệu, cách phần đầu,display: flex_tự căn chỉnh trang -->
 			<div id="sodolop" style="overflow: auto;  margin-top :50px; overflow: auto; display: flex; justify-content: center;"> 
-				<!--t?o d�y b�n tr�n c�ng 1 h�ng-->
+				<!--tạo dãy bàn trên cùng 1 hàng-->
 				<div id="dayban" style="margin-left: all">
 
 				<div id ="day1" align="center" style="float: left; border: 2px solid; width: 250px; height: 300px; overflow: auto;" >
-						<p style="color: black; text-align: center;">D�y 1</p>
+						<p style="color: black; text-align: center;">Dãy 1</p>
 							<ol type="1">					
 								<div id ="ban 1">
 									<li>
-										<a href="#" title = "175A071880">H?ng  </a>  &nbsp; 
-										<a href="#" title = "175A071881">Ti?n  </a>  &nbsp; 
-										<a href="#" title = "175A071882">Th�y  </a>  &nbsp; 
-										<a href="#" title = "175A071883">Ng?c  </a>  &nbsp;
+										<a href="#" title = "175A071880">Hằng  </a>  &nbsp; 
+										<a href="#" title = "175A071881">Tiến  </a>  &nbsp; 
+										<a href="#" title = "175A071882">Thùy  </a>  &nbsp; 
+										<a href="#" title = "175A071883">Ngọc  </a>  &nbsp;
 									</li>
 
 									<p></p>
@@ -34,10 +34,64 @@
 										<a href="#" title = "175A071884">Linh  </a>  &nbsp;
 										<a href="#" title = "175A071885">Nam   </a>  &nbsp;
 										<a href="#" title = "175A071886">Phong </a>  &nbsp;
-										<a href="#" title = "175A071887">Kh�i  </a>  &nbsp;
+										<a href="#" title = "175A071887">Khôi  </a>  &nbsp;
 									</li>
 								</div>	
 							</ol>
-								<!--tr�nh b? co khung-->
+								<!--tránh b? co khung-->
 								</div>
 								</div>
+					<!--tạo khoảng cách giữa 2 dãy-->
+				<div style="float:left;"> &nbsp;&nbsp;&nbsp;&nbsp; </div> 	
+				<div id="dayban" style=" ">
+				<div id ="day2" align="center" style="float: left; border: 2px solid; width: 250px; height: 300px; overflow: auto;" >
+					<p style="color: black; text-align: center;"> Dãy 2 </p>
+						<ol type="1">
+							<li>
+								<a href="#" title = "175A071890">Ánh   </a>  &nbsp;
+								<a href="#" title = "175A071891">Trang </a>  &nbsp;
+								<a href="#" title = "175A071892">Thủy  </a>  &nbsp;
+								<a href="#" title = "175A071893">Trang </a>  &nbsp;
+							</li>
+
+							<p></p>
+
+							<li>
+								<a href="#" title = "175A071894">Tùng  </a>  &nbsp;
+								<a href="#" title = "175A071895">Thảo  </a>  &nbsp;
+								<a href="#" title = "175A071896">Thiên </a>  &nbsp;
+								<a href="#" title = "175A071897">Minh  </a>  &nbsp;		
+							</li>			
+						</ol>
+				</div> 	
+			</div>
+
+				<!--tạo khoảng cách giữ 2 dãy-->
+				<div style="float:left;"> &nbsp;&nbsp;&nbsp;&nbsp; </div> 
+				<div id="dayban" style=" ">
+					<div id ="day1" align="center" style="float: left; border: 2px solid; width: 250px; height: 300px; overflow: auto;" >
+					<p style="color: black; text-align: center;"> Dãy 3 </p>							
+						<ol>
+							<li>
+								<a href="#" title = "175A071900">Dương </a>  &nbsp;	
+								<a href="#" title = "175A071901">Huế   </a>  &nbsp;	
+							</li>
+
+							<p></p>
+
+							<li>
+								<a href="#" title = "175A071902">Lượng </a>  &nbsp; 
+								<a href="#" title = "175A071903">Chi   </a>  &nbsp; 
+							</li>
+						</ol>
+				</div>	
+			</div>
+		</div>
+
+		<p>
+			<div id="tengiaovien" align="right" style=" text-align: center; float:right; font-size:x-large; border: 2px solid;margin: 100px; margin-top : 50px; "> <a href="#" title = "KIỀU TUẤN DŨNG"> Bàn giáo viên </a>
+			</div>
+		</p>
+
+	</body>
+</html>
