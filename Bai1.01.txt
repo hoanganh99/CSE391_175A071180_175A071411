@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<title>S? d?ng các tag co b?n</title>
+</head>
+<body>
+	<h1 style="text-align: center;"> S? d?ng các tag co b?n d? t?o trang web trên </h1>
+	<h2> <u> Yêu c?u </u> </h2>
+	<p> <strong> Thi?t k? trang web có n?i dung nhu sau: </strong> </p>
+	<p style="text-align: center;"> L?p trình Web <br> Chào m?ng các b?n d?n v?i ngôn ng? HTML </p>
+</body>
+</html>
