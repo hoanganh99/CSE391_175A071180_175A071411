@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang = "vi">
 	<head>
-		<title> XÂY DỰNG SO ÐỒ LỚP HỌC:</title>
+		<title> XÂY DỰNG SƠ ĐỒ LỚP HỌC:</title>
 		<meta charset="utf-8" />
 		<meta name="author" content="HOÀNG ÁNH and HUYỀN TRANG" />
-		<meta name="keyword" content="so d? l?p h?c, so d? html co b?n" />
+		<meta name="keyword" content="sơ đồ lớp học, sơ đồ html cơ bản" />
 	</head>
 	<body>
-		<div id="sodolop" style="color: red; text-align: center">  <h2>SO ÐO LOP 59TH</h2> </div>
+		<div id="sodolop" style="color: red; text-align: center">  <h2>SƠ ĐỒ LỚP 59TH</h2> </div>
 		
 		<!--kích thước của khung bao bên ngoài, chiều rộng , chiều cao, lề-->
 		<div id= "kichthuockhung" style="width: 900px; height: auto; margin: auto; ">	
@@ -38,9 +38,10 @@
 									</li>
 								</div>	
 							</ol>
-								<!--tránh b? co khung-->
+								<!--tránh bị co khung-->
 								</div>
 								</div>
+
 					<!--tạo khoảng cách giữa 2 dãy-->
 				<div style="float:left;"> &nbsp;&nbsp;&nbsp;&nbsp; </div> 	
 				<div id="dayban" style=" ">
@@ -94,4 +95,4 @@
 		</p>
 
 	</body>
-</html>
+</html>.
