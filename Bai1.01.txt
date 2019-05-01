@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="vi">
 <head>
 	<meta charset="UTF-8">
-	<title>S? d?ng c�c tag co b?n</title>
+	<title>Sử dụng các tag cơ bản</title>
 </head>
 <body>
-	<h1 style="text-align: center;"> S? d?ng c�c tag co b?n d? t?o trang web tr�n </h1>
-	<h2> <u> Y�u c?u </u> </h2>
-	<p> <strong> Thi?t k? trang web c� n?i dung nhu sau: </strong> </p>
-	<p style="text-align: center;"> L?p tr�nh Web <br> Ch�o m?ng c�c b?n d?n v?i ng�n ng? HTML </p>
+	<h1 style="text-align: center;"> Sử dụng các tag cơ bản để tạo trang web trên </h1>
+	<h2> <u> Yêu cầu </u> </h2>
+	<p> <strong> Thiết kế trang web có nội dung như sau: </strong> </p>
+	<p style="text-align: center;"> Lập trình Web <br> Chào mừng các bạn đến với ngôn ngữ HTML </p>
 </body>
 </html>
