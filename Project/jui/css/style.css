@@ -1,31 +1,63 @@
-.dropdown
+*
 {
-	border: solid;
-	float: left;
-	color: white;
-	width: 1360px;
-	height: 50px;
-	background-color: blue;
-	padding-left: 100px;
-	margin-bottom: 50px;
-	margin-top: 0px, 0px, 10px, 0px;
-	
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
-
-#carouselExampleControls
+.menu-bar
 {
-	margin-left: 50px;
-	margin-right: 50px;
+	background-color: #08088A;
+	text-align: center;
 }
-
-.container-fluid
+.menu-bar ul
 {
-	padding-right: 0px;
+	display: inline-flex;
+	list-style: none;
+	color: #fff;
 }
-
-.mages
+.menu-bar ul li
 {
-	mar
-	margin-top: 50px;
-	margin-bottom: 30px;
+	width: 120px;
+	margin: 0px;
+	padding: 0px;
+}
+.menu-bar ul li a
+{
+	text-decoration: none;
+	color: #fff;
+}
+.menu-bar ul li:hover .active a
+{
+	color: #FAAC58;	
+}
+.sub-menu-1
+{
+	display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+	display: block;
+	position: absolute;
+	background: #08088A;
+	margin-top: 10px;
+	margin-left: -1px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+	display: block;
+	margin: 0px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+	width: 230px;
+	padding: 2px;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+	color: black;
+	background-color: #fff;
+	width: 210px;
+	border-bottom: 5px;
 }
