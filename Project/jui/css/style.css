@@ -1,0 +1,31 @@
+.dropdown
+{
+	border: solid;
+	float: left;
+	color: white;
+	width: 1360px;
+	height: 50px;
+	background-color: blue;
+	padding-left: 100px;
+	margin-bottom: 50px;
+	margin-top: 0px, 0px, 10px, 0px;
+	
+}
+
+#carouselExampleControls
+{
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.container-fluid
+{
+	padding-right: 0px;
+}
+
+.mages
+{
+	mar
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
