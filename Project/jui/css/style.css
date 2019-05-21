@@ -4,31 +4,41 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-.menu-bar
+.continer-fluid div 
 {
 	background-color: #08088A;
-	text-align: center;
+}
+.continer-fluid div div .menu-bar
+{
+	padding-left: 100px;
+}
+.menu-bar
+{
+	height: 15px;
 }
 .menu-bar ul
-{
-	display: inline-flex;
+{	display: inline-flex;
 	list-style: none;
 	color: #fff;
-}
-.menu-bar ul li
-{
-	width: 120px;
-	margin: 0px;
-	padding: 0px;
+	white-space: inherit;
 }
 .menu-bar ul li a
 {
+	/*không có gạch chân của link liên kết*/
 	text-decoration: none;
 	color: #fff;
+	padding: 0 5px;
 }
 .menu-bar ul li:hover .active a
 {
 	color: #FAAC58;	
+}
+.active
+{
+	padding: 2 2px;
+	list-style-type: none;
+	float: left;
+	border-right: 2px solid white;
 }
 .sub-menu-1
 {
@@ -39,25 +49,17 @@
 	display: block;
 	position: absolute;
 	background: #08088A;
-	margin-top: 10px;
-	margin-left: -1px;
 }
 .menu-bar ul li:hover .sub-menu-1 ul
 {
 	display: block;
-	margin: 0px;
 }
 .menu-bar ul li:hover .sub-menu-1 ul li
 {
-	width: 230px;
-	padding: 2px;
-	border-radius: 0;
-	text-align: left;
+	width: 200px;
 }
 .menu-bar ul li:hover .sub-menu-1 ul li a:hover
 {
-	color: black;
+	color: #000000;
 	background-color: #fff;
-	width: 210px;
-	border-bottom: 5px;
 }
