@@ -1,0 +1,23 @@
+.class-name
+{
+	text-align: center;
+}
+th 
+{
+	text-align: center;
+	background: #006666;
+	color: white;
+}
+img
+{
+	width: 40px;
+	height: 60px;
+}
+.menu
+{
+	background: green;
+}
+.end
+{
+	background:#006666;
+}
