@@ -3,18 +3,23 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	font-size: 15px;
 }
 .continer-fluid div 
 {
-	background-color: #08088A;
+	background-color: #0D4E96;
 }
 .continer-fluid div div .menu-bar
 {
 	padding-left: 100px;
 }
+/*menu không bị lấp bởi phần sau*/
 .menu-bar
 {
-	height: 15px;
+	height: 18px;
+	overflow: visible;
+	position: fixed !important;
+	z-index: 1000;
 }
 .menu-bar ul
 {	display: inline-flex;
@@ -26,12 +31,13 @@
 {
 	/*không có gạch chân của link liên kết*/
 	text-decoration: none;
+	position: relative;
 	color: #fff;
 	padding: 0 5px;
 }
-.menu-bar ul li:hover .active a
+.menu-bar ul li:hover 
 {
-	color: #FAAC58;	
+	color: #FAAC58 !important;	
 }
 .active
 {
@@ -48,7 +54,7 @@
 {
 	display: block;
 	position: absolute;
-	background: #08088A;
+	background: #0D4E96;
 }
 .menu-bar ul li:hover .sub-menu-1 ul
 {
@@ -61,5 +67,13 @@
 .menu-bar ul li:hover .sub-menu-1 ul li a:hover
 {
 	color: #000000;
-	background-color: #fff;
+	background: #fff;
+}
+.container-fluid
+{
+	padding-left: 100px;
+}
+#carouselExampleControls
+{
+	padding-left: 100px;
 }
