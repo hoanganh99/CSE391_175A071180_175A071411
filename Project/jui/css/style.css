@@ -13,13 +13,14 @@
 {
 	padding-left: 100px;
 }
-/*menu không bị lấp bởi phần sau*/
 .menu-bar
 {
 	height: 18px;
 	overflow: visible;
-	position: fixed !important;
-	z-index: 1000;
+	position: fixed;
+	/*menu không bị lấp bởi phần sau*/
+	/*position: fixed !important;*/
+	/*z-index: 1000;*/
 }
 .menu-bar ul
 {	display: inline-flex;
@@ -44,6 +45,7 @@
 	padding: 2 2px;
 	list-style-type: none;
 	float: left;
+	/*Tạo gạch dọc giữa 2 phần*/
 	border-right: 2px solid white;
 }
 .sub-menu-1
@@ -72,8 +74,31 @@
 .container-fluid
 {
 	padding-left: 100px;
+	padding-right: 100px;
 }
 #carouselExampleControls
 {
 	padding-left: 100px;
+}
+.container-fluid div div div img
+{
+	/*Chiều dài và chiều rộng của logo*/
+	width: 270px;
+	height: auto;
+}
+.container-fluid div div div ul li a
+{
+	/*không có gạch chân của link liên kết*/
+	text-decoration: none;
+	position: relative;
+	color: black;
+	display: block;
+	background-size: cover;
+	font-size: 15px;
+}
+.container-fluid div div div ul ul li a
+{
+	text-align: left;
+	background-size: cover;
+
 }
