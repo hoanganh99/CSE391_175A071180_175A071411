@@ -90,11 +90,11 @@
 
 /*PHẦN MENU-MAIN*/
 /*Tạo menu cố định*/
-.container-2
+/*.container-2
 {
 	width: 100%;
 	background: white;
-	display: block;
+	display: block;*/
 	/*Đổ bóng cho menu*/
 	/*box-shadow: 0px 2px 2px rgba(0,0,0,0.5);*/
 	/*Tạo cố định menu*/
@@ -103,8 +103,8 @@
 	left: 0;
 	z-index: 100000;
 	padding-top: 7px;
-	padding-bottom: 7px;*/
-}
+	padding-bottom: 7px;
+}*/
 /*Căn chỉnh lề của menu-main*/
 .container-2 div 
 {
@@ -129,9 +129,11 @@
 {
 	display: inline-table;
 	line-height: 40px;
+	/*position: relative;*/
 }
 .menu-main ul li a
 {
+	text-transform: uppercase;
 	/*Cho chữ trong menu không bị wrap*/
 	white-space: nowrap;
 	padding: 0 10px;
@@ -144,7 +146,6 @@
 {
 	color: #333333;
 }
-/*Phần menu-1*/
 .menu-1 
 {
 	display: none;
@@ -168,46 +169,39 @@
 {
 	display: block;
 }
-
-/*phần menu-3*/
+/*phần menu-2 chứa cả phần menu-3*/
 .menu-3
 {
+	display: none;
 	border-top: 2px solid blue;
 }
-/*Tránh ảnh hưởng của phần trước*/
-.menu-main:hover .menu-3
+/*Tránh bị ảnh hưởng bởi thuộc tính cha là menu-main*/
+.menu-main ul li:hover .menu-1 .menu-2 .menu-3 li
 {
 	display: none;
 }
-.menu-2:hover .menu-3 
+.menu-main .menu-3
+{
+	position: absolute;
+	display: none;
+}
+
+
+.menu-1 ul li:hover .menu-3 
 {
 	display: block;
 	position: absolute;
 	padding: 0px;
-	margin-left: 285px;
+	margin-left: 20px;
 	margin-top: -40px;
+	background: white;
+	color: #0D4E96;
 	/*Được đè lên trên*/
 	z-index: 1;
 }
-/*Phần menu-4*/
-.menu-4
-{
-	border-top: 2px solid blue;
-}
-/*Tránh ảnh hưởng của phần trước*/
-.menu-main:hover .menu-4
-{
-	display: none;
-}
-.menu-2:hover .menu-4 
+.menu-2 ul li:hover .menu-3 li
 {
 	display: block;
-	position: absolute;
-	padding: 0px;
-	margin-left: 250px;
-	margin-top: -40px;
-	/*Được đè lên trên*/
-	z-index: 1;
 }
 
 
@@ -243,34 +237,14 @@
 	width: 250px;
 	height: 150px;
 	box-sizing: border-box;
-}
-/*Zoom ảnh 1*/
-.image-1:hover img
+	overflow: hidden;
+	transform: 1s;
+}/*
+.container:hover img
 {
 	transform: scale(1.1);
-	overflow: hidden;
-	transition-duration: 0.5s;
-       /* Safari & Google Chrome */
-        -webkit-transition-duration: 0.5s; 
-}
-/*Zoom ảnh 2*/
-.image-2:hover img
-{
-	transform: scale(1.1);
-	overflow: hidden;
-	transition-duration: 0.5s;
-       /* Safari & Google Chrome */
-        -webkit-transition-duration: 0.5s; 
-}
-/*Zoom ảnh 3*/
-.image-3:hover img
-{
-	transform: scale(1.1);
-	overflow: hidden;
-	transition-duration: 0.5s;
-       /* Safari & Google Chrome */
-        -webkit-transition-duration: 0.5s; 
-}
+	transform: 1s;
+}*/
 /*Phần tin tiêu điểm*/
 .container-3 .event-hightlinght h3
 {
@@ -316,61 +290,10 @@
 	list-style: none;
 }
 
-
 /*TRANG INDEX-1.HTML*/
-.container-1-1 
+.irs-inner-heading 
 {
-	width: 1400px;
+	background-image: url("5.jpg");
+	width: 1500px;
 	height: 200px;
-	padding-left: 330px;
-	padding-top: 30px;
-	background: #0D4E96;
 }
-/*Phần nền slide*/
-.irs-inner-heading h1
-{
-	border-width: 2px;
-   	border-style: solid;
-   	width: 700px;
-   	height: 140px;
-   	color: white;
-   	font-weight: bold;
-}
-
-
-/*PHẦN BLOG*/
-.container-1-2
-{
-	padding-left: 100px;
-	padding-right: 100px;
-}
-.input-group
-{
-	border: 1px solid #0D4E96;
-}
-/*Phần tin tiêu điểm*/
-.irs-slide-title
-{
-	color: #0D4E96;
-	font-weight: bold;
-}
-/*Phần ảnh*/
-.irs-post-item img
-{
-	width: 70px;
-	height: auto;
-}
-/*Tiêu đề của những mẫu tin*/
-.irs-post-item p
-{
-	color: black;
-	font-size: 15px; 
-	padding-left: 50px; 
-	width: 345px;
-}
-.irs-post-item div div div p
-{
-	text-decoration: none;
-	position: relative;
-}
-
