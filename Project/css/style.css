@@ -281,3 +281,124 @@
 {
 	list-style: none;
 }
+.new-top {
+    background-color: #0D4E96;
+    height: 165px;
+}
+.imageCategory {
+    width: 195px;
+    height: 166px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    margin-top: -1px;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.irs-blog-field {
+    padding: 10px 0 0;
+}
+.titlebox span {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    display: -moz-box;
+    -moz-box-align: center;
+    -moz-box-pack: center;
+    display: -webkit-box;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    display: box;
+    box-align: center;
+    box-pack: center;
+    padding-top: 55px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*a {
+    color: #333;
+    text-decoration: none;
+}*/
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+/*user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}*/
+.irs-courses-col {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #F7F7F7;
+    overflow: hidden;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #333;
+    font-size: 14px;
+    line-height: 26px;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+/*body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}*/
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    
+}
+
+.img-responsive {
+	height: 60px;
+	width: 60px;
+	/*display: block;
+    max-width: 100%;*/
+}
+
+.link-web img{
+	margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    border: 2px solid rgba(13,78,150,1);
+    border-radius: 100%;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+/*:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}*/
