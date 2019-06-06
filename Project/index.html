@@ -11,13 +11,11 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css" >
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-	<script src="js/jquery-3.4.1.min.js"></script>
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<script src="js/script.js"></script>
+	
 </head>
 <body>
 	<header>
-		<div class="continer-1">
+		<div class="continer-1" style="">
 			<div class="row">
 				<div class="col-md-10 col-sm-10 menu">
 					<div class="menu-bar">
@@ -30,7 +28,7 @@
 										<li><a href="index-2.html">Phòng Đào tạo</a></li>
 										<li><a href="index-3.html">Công tác Học sinh Sinh viên</a></li>
 										<li><a href="index-4.html">Phòng Khoa học công nghệ</a></li>
-										<li><a href="index-5.html.html">Phòng Tài chính kế toán</a></li>
+										<li><a href="index-5.html">Phòng Tài chính kế toán</a></li>
 										<li><a href="index-6.html">Phòng Quản trị</a></li>
 										<li><a href="index-7.html">Phòng Thanh tra Giáo dục</a></li>
 									</ul>
@@ -110,9 +108,10 @@
 				</div>			
 			</div>
 		</div>
-		<br>
+		
+		
 		<!--Phần logo-->
-		<div class="container-2">
+		<div class="container-2" style="">
 			<div class="row">
 				<div class="col-md-3">
 					<div class="images">
@@ -482,4 +481,23 @@
 		</div>
 	</section>
 </body>
+<!-- script -->
+<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+<script >
+	$(function() {
+    var header = $(".container-2");
+  
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
+        if (scroll >= 50) {
+            header.addClass("scrolled");
+        } else {
+            header.removeClass("scrolled");
+        }
+    });
+  
+});
+</script>
 </html>

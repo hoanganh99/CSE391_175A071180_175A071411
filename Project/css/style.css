@@ -90,20 +90,30 @@
 
 /*PHẦN MENU-MAIN*/
 /*Tạo menu cố định*/
+@media only screen and (max-width: 1000px) {
+  .continer-1 ,.continer-1 .row{
+  	height: 60px !important;
+  }
+}
 .container-2
 {
 	width: 100%;
 	background: white;
 	display: block;
 	/*Đổ bóng cho menu*/
-	/*box-shadow: 0px 2px 2px rgba(0,0,0,0.5);*/
+	
 	/*Tạo cố định menu*/
-	/*position: fixed;
-	top: 0;
+	
+	
 	left: 0;
 	z-index: 100000;
 	padding-top: 7px;
-	padding-bottom: 7px;*/
+	padding-bottom: 7px;
+}
+.scrolled{
+	position: fixed;
+	top: 0;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
 }
 /*Căn chỉnh lề của menu-main*/
 .container-2 div 
@@ -374,3 +384,10 @@
 	position: relative;
 }
 
+
+/*PHẦN INDEX-8.HTML*/
+.container-8--2 .irs-post-item p
+{
+	padding-left: 0px;
+	width: 350px;
+}
