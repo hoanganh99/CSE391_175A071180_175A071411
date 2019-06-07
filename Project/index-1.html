@@ -11,7 +11,9 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css" >
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-	
+	<link href="https://www.haui.edu.vn/dnn/web/haui/assets/images/favicon.png" rel="icon" type="image/png">
+    <link href="https://www.haui.edu.vn/dnn/web/haui/assets/images/favicon.png" rel="shortcut icon" type="image/png">
+
 </head>
 <body>
 	<header>
@@ -226,12 +228,12 @@
 	<br>
 	<!-- Phần inner page hedaing  -->
 	<section class="irs-inner-page-heading">
-		<div class="container-1-1">
+		<div class="container-1-1" >
 			<div class="row">
 				<div class="col-md-12">
 					<div class="irs-inner-heading">
 						<h1 style="text-align: center; padding-top: 20px;">Phòng Tổ chức hành chính <br>
-							<i class="fas fa-book-open fa-2x"></i>
+							<i class="icofont-education" style="color: white"></i>
 						</h1>
 					</div>
 				</div>
@@ -250,7 +252,7 @@
 								<input placeholder="Tìm kiếm..." class="form-control" type="text" name="q">
 								<span>
 									<button type="submit" class="btn" style="background-color: #0D4E96;">
-										<i class="fas fa-search" style="color: white"></i>
+										<i class="fas fa-search" style="color: white;"></i>
 									</button>
 								</span>
 							</div>
@@ -495,3 +497,20 @@
 			</div>
 		</div>
 	</section>
+	<script >
+		$(function() {
+	    var header = $(".container-2");
+	  
+	    $(window).scroll(function() {    
+	        var scroll = $(window).scrollTop();
+	        if (scroll >= 50) {
+	            header.addClass("scrolled");
+	        } else {
+	            header.removeClass("scrolled");
+	        }
+	    });
+	  
+	});
+	</script>
+</html>	
+

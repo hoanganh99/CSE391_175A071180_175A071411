@@ -234,7 +234,7 @@
 }
 
 
-/*PHẦN BLOG TIN TỨC*/
+/*PHẦN TIN TỨC*/
 .container-3 a
 {
 	font-size: 15px;
@@ -326,15 +326,93 @@
 	list-style: none;
 }
 
+/*PHẦN SINH VIÊN HaUI*/
+.container-6
+{
+	padding: 0 100px;
+}
+/*Làm mất gạch liên kết*/
+.container-6 a
+{
+	text-decoration: none;
+}
+/*Căn chỉnh lề của dòng sinh viên haui*/
+.student
+{
+	color: #0D4E96;
+	padding-left: 470px;
+}
+/*Phần hình ảnh và tiêu đề của sinh viên haui*/
+/*Phần hình ảnh*/
+.new-top img
+{
+	width: 200px;
+	height: 180px;
+}
+/*Phần tiêu đề của hình ảnh */
+.new-top p
+{
+	margin-left: 130px;
+	width: 160px;
+	height: 180px;
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+	padding-top: 50px;
+	color: white;
+	background-color: #0D4E96;
+}
+/*Làm mất form của li*/
+.irs-courses-content-one li
+{
+	list-style: none;
+}
+
+/*PHẦN LOGO*/
+/*Làm mất gạch liên kết*/
+.item a
+{
+	text-decoration: none;
+}
+/*Chỉnh sửa kiểu chữ của các logo*/
+.item p
+{
+	width: 150px;
+	color: #0D4E96;
+	font-weight: bold;
+}
+
+
+/*PHẦN FOOTER*/
+footer
+{
+	height: 500px;
+	background: #0D4E96;
+	padding-top: 50px;
+	color: white;
+	line-height: 20px;
+}
+/*Làm mất form của li*/
+.address li
+{
+	list-style: none;
+	color: white;
+}
+/*Bỏ phần gạch chân của liên kết*/
+.address a
+{
+	text-decoration: none;
+}
+
 
 /*TRANG INDEX-1.HTML*/
 .container-1-1 
 {
-	width: 1400px;
+	width: 1370px;
 	height: 200px;
 	padding-left: 330px;
 	padding-top: 30px;
-	background: #0D4E96;
+	background: url('image/5.jpg') #0D4E96;
 }
 /*Phần nền slide*/
 .irs-inner-heading h1
