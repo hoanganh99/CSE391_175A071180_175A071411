@@ -235,10 +235,10 @@
 
 
 /*PHẦN TIN TỨC*/
+
 .container-3 a
 {
 	font-size: 15px;
-	text-decoration: none;
 	color: #333333;
 }
 /*Căn chỉnh lề của dòng tin tức*/
@@ -281,13 +281,29 @@
        /* Safari & Google Chrome */
         -webkit-transition-duration: 0.5s; 
 }
+/*Thay đổi màu chữ*/
+.content:hover a
+{
+	color: #666633;
+}
+.container-4 .col-md-4 .content-1:hover h4
+{
+	color: red;
+}
+.container-5 .col-md-4:hover p
+{
+	color: #666633;
+}
 /*Phần tin tiêu điểm*/
 .container-3 .event-hightlinght h3
 {
 	color: #0D4E96;
 	font-weight: bold;
 }
-
+.container-3 .event-hightlinght a
+{
+	text-decoration: none;
+}
 
 /*PHẦN THÔNG BÁO*/
 /*Căn chỉnh lề của phần thông báo*/
@@ -299,7 +315,7 @@
 .notification
 {
 	color: #0D4E96;
-	padding-left: 470px;
+	padding-left: 270px;
 }
 /*Phần hình ảnh to nhất trong phần thông báo*/
 .container-4 .index-img img
@@ -310,7 +326,6 @@
 /*Phần góc nhìn HaUI*/
 .container-4 a
 {
-	text-decoration: none;
 	color: #333333;
 }
 /*Tiêu đề góc nhìn HaUI*/
@@ -330,11 +345,6 @@
 .container-6
 {
 	padding: 0 100px;
-}
-/*Làm mất gạch liên kết*/
-.container-6 a
-{
-	text-decoration: none;
 }
 /*Căn chỉnh lề của dòng sinh viên haui*/
 .student
@@ -369,28 +379,46 @@
 }
 
 /*PHẦN LOGO*/
-/*Làm mất gạch liên kết*/
-.item a
+/*Chỉnh sửa hình ảnh ở phần logo*/
+.item img
 {
-	text-decoration: none;
+	margin-top: 50px;
+	width: 80px;
+	height: 80px;
+	border: 2px solid #0D4E96;
+	border-radius: 80px;
 }
 /*Chỉnh sửa kiểu chữ của các logo*/
 .item p
 {
+	margin-left: -35px;
 	width: 150px;
 	color: #0D4E96;
 	font-weight: bold;
+}
+/*Nút để di chuyển 2 phần của các logo*/
+.irs-about-field .carousel-indicators {
+    bottom: -30px;
+}
+
+section .carousel .carousel-indicators li {
+    background-color: #ADB2B5;
+}
+
+section .carousel .carousel-indicators .active {
+    background-color: #0d4e96;
 }
 
 
 /*PHẦN FOOTER*/
 footer
 {
-	height: 500px;
+	height: 400px;
 	background: #0D4E96;
 	padding-top: 50px;
 	color: white;
-	line-height: 20px;
+	line-height: 25px;
+	background-image: url('imange/5.jpg');
 }
 /*Làm mất form của li*/
 .address li
@@ -398,17 +426,26 @@ footer
 	list-style: none;
 	color: white;
 }
-/*Bỏ phần gạch chân của liên kết*/
-.address a
+/*Trở lại đầu trang*/
+.back-to-the-top
 {
-	text-decoration: none;
+	margin: 0px;
+	width: 1350px;
+	height: 50px;
+	padding-top: 7px;
+	background: red;
+	text-align: center;
 }
+
+
+
+
 
 
 /*TRANG INDEX-1.HTML*/
 .container-1-1 
 {
-	width: 1370px;
+	width: 1350px;
 	height: 200px;
 	padding-left: 330px;
 	padding-top: 30px;
@@ -424,8 +461,6 @@ footer
    	color: white;
    	font-weight: bold;
 }
-
-
 /*PHẦN BLOG*/
 .container-1-2
 {
