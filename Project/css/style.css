@@ -411,14 +411,14 @@ section .carousel .carousel-indicators .active {
 
 
 /*PHẦN FOOTER*/
-footer
+.irs-footer-field
 {
 	height: 400px;
-	background: #0D4E96;
+	background: #6699FF;
 	padding-top: 50px;
 	color: white;
 	line-height: 25px;
-	background-image: url('imange/5.jpg');
+	background-image: url('image/5.jpg');
 }
 /*Làm mất form của li*/
 .address li
@@ -433,7 +433,7 @@ footer
 	width: 1350px;
 	height: 50px;
 	padding-top: 7px;
-	background: red;
+	background: #0D4E96;
 	text-align: center;
 }
 
@@ -449,7 +449,8 @@ footer
 	height: 200px;
 	padding-left: 330px;
 	padding-top: 30px;
-	background: url('image/5.jpg') #0D4E96;
+	background: blue;
+	background: url("image/5.jpg");
 }
 /*Phần nền slide*/
 .irs-inner-heading h1
@@ -458,7 +459,6 @@ footer
    	border-style: solid;
    	width: 700px;
    	height: 140px;
-   	color: white;
    	font-weight: bold;
 }
 /*PHẦN BLOG*/
@@ -503,4 +503,13 @@ footer
 {
 	padding-left: 0px;
 	width: 350px;
+}
+.irs-courses-content-8 p
+{
+	font-size: 20px;
+	font-weight: bold;
+}
+.irs-courses-content-8:hover p
+{
+	color: red;
 }
