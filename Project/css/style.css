@@ -418,7 +418,11 @@ section .carousel .carousel-indicators .active {
 	padding-top: 50px;
 	color: white;
 	line-height: 25px;
-	background-image: url('image/5.jpg');
+	background-color:  #0D4D96;
+	background-image: url("C:/Users/Adminis/Documents/GitHub/CSE391_175A071180_175A071411/Project/image/6.jpg") ;
+	
+    background-size: 1350px 400px;
+    position: relative;
 }
 /*Làm mất form của li*/
 .address li
@@ -436,7 +440,13 @@ section .carousel .carousel-indicators .active {
 	background: #0D4E96;
 	text-align: center;
 }
-
+#scrollUp
+{
+	bottom: 10px;
+    right: 10px;
+    padding: 8px 10px;
+    background-color: #0d4e96;
+}
 
 
 
@@ -450,7 +460,9 @@ section .carousel .carousel-indicators .active {
 	padding-left: 330px;
 	padding-top: 30px;
 	background: blue;
-	background: url("image/5.jpg");
+	background-image: url("C:/Users/Adminis/Documents/GitHub/CSE391_175A071180_175A071411/Project/image/5.jpg");
+	background-repeat: no-repeat;
+	background-size: 1350px 200px;
 }
 /*Phần nền slide*/
 .irs-inner-heading h1
