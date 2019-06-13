@@ -400,11 +400,9 @@
 .irs-about-field .carousel-indicators {
     bottom: -30px;
 }
-
 section .carousel .carousel-indicators li {
     background-color: #ADB2B5;
 }
-
 section .carousel .carousel-indicators .active {
     background-color: #0d4e96;
 }
@@ -419,8 +417,7 @@ section .carousel .carousel-indicators .active {
 	color: white;
 	line-height: 25px;
 	background-color:  #0D4D96;
-	background-image: url("C:/Users/Adminis/Documents/GitHub/CSE391_175A071180_175A071411/Project/image/6.jpg") ;
-	
+	background-image: url("C:/Users/Adminis/Documents/GitHub/New folder/web/CSE391_175A071180_175A071411/Project/image/6.jpg") ;
     background-size: 1350px 400px;
     position: relative;
 }
@@ -460,7 +457,7 @@ section .carousel .carousel-indicators .active {
 	padding-left: 330px;
 	padding-top: 30px;
 	background: blue;
-	background-image: url("C:/Users/Adminis/Documents/GitHub/CSE391_175A071180_175A071411/Project/image/5.jpg");
+	background-image: url("C:/Users/Adminis/Documents/GitHub/New folder/web/CSE391_175A071180_175A071411/Project/image/5.jpg");
 	background-repeat: no-repeat;
 	background-size: 1350px 200px;
 }
@@ -522,6 +519,62 @@ section .carousel .carousel-indicators .active {
 	font-weight: bold;
 }
 .irs-courses-content-8:hover p
+{
+	color: red;
+}
+/*Nút để di chuyển 2 phần của các logo*/
+.irs-about-field-8 .carousel-indicators {
+    bottom: -30px;
+}
+section .carousel .carousel-indicators li {
+    background-color: #ADB2B5;
+}
+section .carousel .carousel-indicators .active {
+    background-color: #0d4e96;
+}
+
+
+
+/*PHẦN INDEX-21.HTML*/
+.container-21
+{
+	padding-left: 100px;
+	padding-right: 100px;
+}
+/*chỉnh cỡ ảnh của phần tin tức */
+.container-21 img
+{
+	width: 250px;
+	height: 150px;
+	box-sizing: border-box;
+}
+.container-21 a
+{
+	text-decoration: none;
+}
+/*bỏ gạch chân của phần thông báo thứ 2*/
+.irs-post-item-21 a
+{
+	text-decoration: none;
+}
+
+
+
+/*PHẦN INDEX-31.HTML*/
+.irs-courses-content-8-31:hover p
+{
+	color: red;
+}
+
+
+
+/*PHẦN INDEX-42.HTML*/
+/*bỏ from của li*/
+#ochannelTree li
+{
+	list-style: none;
+}
+#ochannelTree a
 {
 	color: red;
 }

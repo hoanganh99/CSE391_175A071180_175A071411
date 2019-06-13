@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="HOÀNG THỊ NGỌC ÁNH & NGUYỄN THỊ HUYỀN TRANG"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link href="https://www.haui.edu.vn/dnn/web/haui/assets/images/favicon.png" rel="icon" type="image/png">
+    <link href="https://www.haui.edu.vn/dnn/web/haui/assets/images/favicon.png" rel="shortcut icon" type="image/png">
+    <title>Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI || HaUI</title>
+    <link href="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/font-awesome.min.css" rel="stylesheet">
+    <link href="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/bootstrap.min.css" rel="stylesheet">
+    <link href="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/style.css" rel="stylesheet">
+    <link href="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/responsive.css" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+    <!-- <script type="text/javascript" src="js/script.js"></script> -->
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="preloader" style="display: none;"></div>
+    <!-- tiêu đề chính -->
+    <header class="irs-main-header">
+      <div class="irs-header-top-bar">
+       <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-sm-10 menu">
+               <ul>
+                <!--Tạo menu PHÒNG xổ xuống của-->
+                    <li class="dropdown">
+                        <div class="dropdown">
+                            <button class="dropbtn">Khoa</button>
+                            <div class="dropdown-content">
+                                <a href="https://fme.haui.edu.vn/">Khoa Cơ khí</a>
+                                <a href="https://fct.haui.edu.vn/">Khoa Công nghệ Hoá</a>
+                                <a href="https://fgd.haui.edu.vn/">Khoa Công nghệ may &amp; TKTT</a>
+                                <a href="https://fat.haui.edu.vn/">Khoa Công nghệ Ô tô</a>
+                                <a href="https://fit.haui.edu.vn/">Khoa Công nghệ thông tin</a>
+                                <a href="https://khoadien.haui.edu.vn/">Khoa Điện</a>
+                                <a href="https://fee.haui.edu.vn/">Khoa Điện tử</a>
+                                <a href="https://faa.haui.edu.vn/">Khoa Kế toán - Kiểm toán</a>
+                                <a href="https://ffs.haui.edu.vn/">Khoa Khoa học cơ bản</a>
+                                <a href="https://lps.haui.edu.vn/">Khoa Lý luận chính trị - Pháp luật</a>
+                                <a href="https://ffl.haui.edu.vn/">Khoa Ngoại ngữ</a>
+                                <a href="https://fbm.haui.edu.vn/">Khoa Quản lý kinh doanh</a>
+                                <a href="https://ft.haui.edu.vn/">Khoa Du lịch</a>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="dropdown">
+                        <div class="dropdown">
+                            <button class="dropbtn">Trung tâm Đào tạo</button>
+                            <div class="dropdown-content">
+                                <a href="https://cps.haui.edu.vn/">Trung tâm Đào tạo Sau đại học</a>
+                                <a href="https://pes.haui.edu.vn/">Trung tâm Giáo dục thể chất và Thể thao</a>
+                                <a href="https://cic.haui.edu.vn/">Trung tâm Hợp tác Quốc tế</a>
+                                <a href="https://dtc.haui.edu.vn/">Trung tâm Đào tạo Lái xe</a>
+                                <a href="https://hfc.haui.edu.vn/">Trung tâm Đào tạo kỹ thuật HaUI-Foxconn</a>
+                                <a href="https://itc.haui.edu.vn/">Trung tâm Công nghệ thông tin</a>
+                                <a href="https://mec.haui.edu.vn/">Trung tâm Cơ khí</a>
+                                <a href="https://vjc.haui.edu.vn/">Trung tâm Việt Nhật</a>
+                                <a href="https://cce.haui.edu.vn/">Trung tâm Đào tạo thường xuyên</a>
+                                <a href="https://nds.haui.edu.vn/">Trung tâm Giáo dục Quốc phòng An ninh</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <div class="dropdown">
+                            <button class="dropbtn">Trung tâm Dịch vụ</button>
+                            <div class="dropdown-content">
+                                <a href="https://cpr.haui.edu.vn/">Trung tâm Truyền thông &amp; Quan hệ Công chúng</a>
+                                <a href="https://qhdn.haui.edu.vn/">Trung tâm hợp tác doanh nghiệp</a>
+                                <a href="https://hc.haui.edu.vn/">Trạm Y tế</a>
+                                <a href="https://ktx.haui.edu.vn/">Trung tâm Quản lý Ký túc xá</a>
+                                <a href="https://haui.edu.vn/vn/html/trung-tam-dam-bao-chat-luong">Trung tâm Đảm bảo chất lượng</a>
+                                <a href="https://lic.haui.edu.vn/">Trung tâm Thông tin Thư viện</a>
+                                <a href="https://www.haui.edu.vn/vn/html/trung-tam-khao-thi">Trung tâm khảo thí</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="https://hit.haui.edu.vn/">Viện nghiên cứu</a></li>
+                    <li><a href="http://letco.vn/">Công ty Letco</a></li>
+                    <li class="hidden-xs"><a href="https://mail.haui.edu.vn/" target="_blank">Thư điện tử</a></li>
+                    <li class="hidden-xs"><a href="https://www.haui.edu.vn/vn//m/sitemap/module">Sitemap</a></li>
+                    <li class="hidden-xs"><a href="https://www.haui.edu.vn/vn/html/lien-he">Liên hệ</a></li>
+                </ul>    
+            </div>    
+            
+
+            <div class="col-md-2 col-sm-2 text-right hidden-xs">
+                <div class="irs-header-top-col">
+                    <div class="irs-social">
+                        <span class="changeLang">
+                            <a href="https://www.haui.edu.vn/vn">                                
+                                <img src="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/vn.jpg">
+                            </a>
+                            <a href="https://www.haui.edu.vn/en">
+                                <img src="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/en.jpg">
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+      </div>
+        
+       
+                                <!-- nhãn hiệu và chuyển đổi di động -->
+                                <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+	                                <div style="margin-left: 75px;margin-top: 10px;">
+	                                	<a class="navbar-brand" href="index1.html"  style="margin-bottom: 10px;">
+	                                        <img src="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/logo-ngang.png" alt="Đại học Công Nghiệp Hà Nội">
+	                                    </a>
+	                                </div>
+                                </div>
+                                <!--Thu thập các liên kết điều hướng, biểu mẫu và nội dung khác-->
+                                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav navbar-right" data-hover="dropdown" data-animations="flipInY">
+                                        <li class="active">
+                                            <a href="https://www.haui.edu.vn/vn/page/cthssv/">
+                                                <!-- <i class="fa fa-home" aria-hidden="true" style="font-size: 20px"></i> -->
+                                                <img src="https://img.icons8.com/metro/26/000000/home.png" style="width: 19px; height: 20px">
+                                            </a>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="https://www.haui.edu.vn/vn/page/cthssv/html/gioi-thieu">Giới thiệu</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="https://www.haui.edu.vn/vn/page/cthssv/html/thong-tin-chung">Giới thiệu</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.haui.edu.vn/vn/page/cthssv/html/bo-may-to-chuc">Cơ cấu tổ chức</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.haui.edu.vn/vn/page/cthssv/html/doi-ngu-can-bo">Đội ngũ cán bộ</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.haui.edu.vn/vn/page/cthssv/html/dia-chi-lien-he">Địa chỉ liên hệ</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="https://www.haui.edu.vn/vn/page/cthssv/html/gioi-thieu">Sinh viên HaUI</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="https://www.haui.edu.vn/vn/page/cthssv/news/sinh-vien-tuong-lai">Sinh viên tương lai</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.haui.edu.vn/vn/page/cthssv/news/hoat-dong-sinh-vien">Hoạt động sinh viên</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.haui.edu.vn/vn/page/cthssv/news/cuu-sinh-vien">Cựu sinh viên</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown">
+                                            <a href="https://www.haui.edu.vn/vn/page/cthssv/">Hỗ trợ sinh viên</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="https://www.haui.edu.vn/vn/page/cthssv/html/cac-bieu-mau-ctsv">Các biểu mẫu công tác SV</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.haui.edu.vn/vn/page/cthssv/news/ky-nang-mem">Kỹ năng mềm</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.haui.edu.vn/vn/page/cthssv/html/che-do-chinh-sach">Chế độ chính sách</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.haui.edu.vn/vn/page/cthssv/html/ho-tro-hoc-tap">Hỗ trợ học tập</a>
+                                                </li>
+                                                <li>
+                                                    <a href="http://qhdn.haui.edu.vn/">Cơ hội nghề nghiệp</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.haui.edu.vn/vn/page/ttqlktx">Ký túc xá</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="https://www.haui.edu.vn/vn/page/dtn">Công tác Đoàn Hội</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div><div style="display: none; width: 1301px; height: 75px; float: none;"></div>
+    </header>
+    
+<!-- Tiêu đề bên trong trang -->
+<section class="irs-inner-page-heading irs-layer-black article">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="irs-inner-heading">
+                    <a href="https://www.haui.edu.vn/vn/page/cthssv/news/sinh-vien-tuong-lai">
+                        <h2>SINH VIÊN TƯƠNG LAI</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="inner-page-content left-img">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+
+				<div class="entry">
+				    <div class="row">
+				                <div class="col-md-4">
+				                    <div class="image-area">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/62324">
+				                            <img src="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/t76640.jpg" class="img-responsive" alt="" style="max-height:200px;margin:0 auto;">
+				                        </a>
+				                    </div>
+				                </div>
+
+				                <div class="col-md-8">
+				                    <h2 class="entry-title">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/62324">Công ty Cổ phần O-OKA GIKEN, Nhật Bản tuyển sinh lớp kỹ sư tài năng tại Đại học Công nghiệp Hà Nội</a>
+				                    </h2>
+				                <div class="entry-meta">
+				                <ul class="list-inline">
+				                    <li>
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/news/sinh-vien-tuong-lai#">
+				                            <i class="fa fa-calendar"></i>Thứ Sáu, 13:28 31/05/2019
+				                        </a>
+				                    </li>
+				                </ul>
+				                </div>
+				                <div class="entry-text">
+				                    <p>
+				                    Sáng ngày 31/5/2019, Trường Đại học Công nghiệp Hà Nội phối hợp với Công ty Cổ phần O-OKA GIKEN, Nhật Bản tổ chức Hội thảo giới thiệu chương trình tuyển sinh lớp kỹ sư tài năng.
+				                    </p>
+				                </div>
+				                <span class="read-more">
+				                <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/62324">Xem thêm</a>
+				                </span>
+				                </div>
+				     </div>
+				</div>
+				<div class="entry">
+				    <div class="row">
+				                <div class="col-md-4">
+				                    <div class="image-area">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/62217">
+				                            <img src="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/t76105.jpg" class="img-responsive" alt="" style="max-height:200px;margin:0 auto;">
+				                        </a>
+				                    </div>
+				                </div>
+				                <div class="col-md-8">
+				                    <h2 class="entry-title">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/62217">Hàng trăm cơ hội việc làm, chương trình học bổng toàn phần cho sinh viên Đại học Công nghiệp Hà Nội</a>
+				                    </h2>
+				                <div class="entry-meta">
+				                <ul class="list-inline">
+				                    <li>
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/news/sinh-vien-tuong-lai#">
+				                            <i class="fa fa-calendar"></i>Thứ Bảy, 13:18 11/05/2019
+				                        </a>
+				                    </li>
+				                </ul>
+				                </div>
+				                <div class="entry-text">
+				                <p>
+				                    Từ ngày 08-11/5/2019, trường Đại học Công nghiệp Hà Nội phối hợp với Công ty Clay Việt Nam, Trung tâm nghiên cứu và Phát triển Di động Samsung Việt Nam - SVMC, Tập đoàn Khoa học Kỹ thuật Hồng Hải (Foxconn) và trường Đại học Khoa học Kỹ thuật Cao Hùng (Đài Loan) tổ chức các chương trình Hội thảo cơ hội việc làm, thực tập sinh và chương trình học bổng toàn phần cho sinh viên khối ngành Kỹ thuật.
+				                </p>
+				                </div>
+				                <span class="read-more">
+				                <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/62217">Xem thêm</a>
+				                </span>
+				                </div>
+				    </div>
+				</div>
+				<div class="entry">
+				    <div class="row">
+				                <div class="col-md-4">
+				                    <div class="image-area">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/62047">
+				                            <img src="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/t75479.jpg" class="img-responsive" alt="" style="max-height:200px;margin:0 auto;">
+				                        </a>
+				                    </div>
+				                </div>
+				                <div class="col-md-8">
+				                    <h2 class="entry-title">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/62047">Nhiều cơ hội làm việc hấp dẫn tại Samsung Electronics cho sinh viên Đại học Công nghiệp Hà Nội</a>
+				                    </h2>
+				                <div class="entry-meta">
+				                <ul class="list-inline">
+				                    <li>
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/news/sinh-vien-tuong-lai#">
+				                            <i class="fa fa-calendar"></i>Thứ Tư, 13:10 17/04/2019
+				                        </a>
+				                    </li>
+				                </ul>
+				                </div>
+				                <div class="entry-text">
+				                <p>
+				                    Sáng ngày 17/4/2019, Công ty TNHH Samsung Electronics Việt Nam tổ chức “Hội thảo cơ hội việc làm” mở ra nhiều cơ hội việc làm hấp dẫn cho sinh viên đã tốt nghiệp và sinh viên trình độ đại học khóa 10 các chuyên ngành của Đại học Công nghiệp Hà Nội.
+				                </p>
+				                </div>
+				                <span class="read-more">
+				                <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/62047">Xem thêm</a>
+				                </span>
+				                </div>
+				    </div>
+				</div>
+				<div class="entry">
+				    <div class="row">
+				                <div class="col-md-4">
+				                    <div class="image-area">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/62032">
+				                            <img src="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/t75432.jpg" class="img-responsive" alt="" style="max-height:200px;margin:0 auto;">
+				                        </a>
+				                    </div>
+				                </div>
+				                <div class="col-md-8">
+				                    <h2 class="entry-title">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/62032">Cơ hội việc làm cho sinh viên tại công ty Canon Việt Nam và Hanwha Aero Engines</a>
+				                    </h2>
+				                <div class="entry-meta">
+				                <ul class="list-inline">
+				                    <li>
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/news/sinh-vien-tuong-lai#">
+				                            <i class="fa fa-calendar"></i>Thứ Năm, 19:12 11/04/2019
+				                        </a>
+				                    </li>
+				                </ul>
+				                </div>
+				         
+				                <span class="read-more">
+				                <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/62032">Xem thêm</a>
+				                </span>
+				                </div>
+				    </div>
+				</div>
+				<div class="entry">
+				    <div class="row">
+				                <div class="col-md-4">
+				                    <div class="image-area">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/61947">
+				                            <img src="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/t75187.jpg" class="img-responsive" alt="" style="max-height:200px;margin:0 auto;">
+				                        </a>
+				                    </div>
+				                </div>
+				                <div class="col-md-8">
+
+				                    <h2 class="entry-title">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/61947">Hơn 700 cơ hội việc làm cho sinh viên ĐHCNHN tại LG  Display Việt Nam Hải Phòng</a>
+				                    </h2>
+				                <div class="entry-meta">
+				                <ul class="list-inline">
+				                    <li>
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/news/sinh-vien-tuong-lai#">
+				                            <i class="fa fa-calendar"></i>Thứ Tư, 14:57 03/04/2019
+				                        </a>
+				                    </li>
+				                </ul>
+				                </div>
+				                <div class="entry-text">
+				                <p>
+				                    Ngày 04/4/2019, Trường Đại học Công nghiệp Hà Nội phối hợp với Công ty LG Display Việt Nam Hải Phòng (LGDVH) tổ chức chương trình “Hội thảo cơ hội thực tập, việc làm” cho sinh viên.
+				                </p>
+				                </div>
+				                <span class="read-more">
+				                <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/61947">Xem thêm</a>
+				                </span>
+				                </div>
+				    </div>
+				</div>
+				<div class="entry">
+				    <div class="row">
+				                <div class="col-md-4">
+				                    <div class="image-area">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/61817">
+				                            <img src="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/t74709.jpg" class="img-responsive" alt="" style="max-height:200px;margin:0 auto;">
+				                        </a>
+				                    </div>
+				                </div>
+				                <div class="col-md-8">
+				                    <h2 class="entry-title">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/61817">Hội thảo tuyển dụng và đào tạo thực tập sinh kỹ thuật cho sinh viên HaUI tại công ty VinFast</a>
+				                    </h2>
+				                <div class="entry-meta">
+				                <ul class="list-inline">
+				                    <li>
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/news/sinh-vien-tuong-lai#">
+				                            <i class="fa fa-calendar"></i>Thứ Ba, 15:03 19/03/2019
+				                        </a>
+				                    </li>
+				                </ul>
+				                </div>
+				                <div class="entry-text">
+				                <p>
+				                    Sáng ngày 19/3/2019, Trường Đại học Công nghiệp Hà Nội (HaUI) phối hợp với công ty VinFast (Tập đoàn Vingroup) tổ chức Hội thảo tuyển dụng và đào tạo thực tập sinh kỹ thuật cho sinh viên Đại học khóa 10, 11 các chuyên ngành Cơ khí, Điện, Điện tử, Công nghệ Ô tô và Công nghệ Hóa.
+				                </p>
+				                </div>
+				                <span class="read-more">
+				                <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/61817">Xem thêm</a>
+				                </span>
+				                </div>
+				    </div>
+				</div>
+				<div class="entry">
+				    <div class="row">
+				                <div class="col-md-4">
+				                    <div class="image-area">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/61776">
+				                            <img src="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/t74599.jpg" class="img-responsive" alt="" style="max-height:200px;margin:0 auto;">
+				                        </a>
+				                    </div>
+				                </div>
+				                <div class="col-md-8">
+				                    <h2 class="entry-title">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/61776">Hàng trăm cơ hội việc làm cho sinh viên HaUI tại Tập đoàn KHKT Hồng Hải</a>
+				                    </h2>
+				                <div class="entry-meta">
+				                <ul class="list-inline">
+				                    <li>
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/news/sinh-vien-tuong-lai#">
+				                            <i class="fa fa-calendar"></i>Thứ Sáu, 10:45 15/03/2019
+				                        </a>
+				                    </li>
+				                </ul>
+				                </div>
+				                <div class="entry-text">
+				                <p>
+				                    Sáng ngày 15/3/2019, Trường Đại học Công nghiệp Hà Nội (HaUI) phối hợp với Tập đoàn Khoa học Kỹ thuật Hồng Hải (Foxconn) tổ chức Hội thảo Cơ hội việc làm cho sinh viên HaUI.
+				                </p>
+				                </div>
+				                <span class="read-more">
+				                <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/61776">Xem thêm</a>
+				                </span>
+				                </div>
+				    </div>
+				</div>
+				<div class="entry">
+				    <div class="row">
+				                <div class="col-md-4">
+				                    <div class="image-area">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/61102">
+				                            <img src="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/t72627.jpg" class="img-responsive" alt="" style="max-height:200px;margin:0 auto;">
+				                        </a>
+				                    </div>
+				                </div>
+				                <div class="col-md-8">
+				                    <h2 class="entry-title">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/61102">Nhiều cơ hội thực tập tốt nghiệp và việc làm cho sinh viên Đại học K10 và Cao đẳng K18</a>
+				                    </h2>
+				                <div class="entry-meta">
+				                <ul class="list-inline">
+				                    <li>
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/news/sinh-vien-tuong-lai#">
+				                            <i class="fa fa-calendar"></i>Thứ Sáu, 16:14 30/11/2018
+				                        </a>
+				                    </li>
+				                </ul>
+				                </div>
+				                <div class="entry-text">
+				                <p>
+				                    Trong 3 ngày, từ 27/11- 30/11/2018, Hội thảo giới thiệu chương trình thực tập tốt nghiệp và việc làm của Công ty TNHH điện tử Towada Việt Nam, Công ty TNHH Nissan Automotive Technology Việt Nam và Công ty TNHH LG Display Việt Nam Hải Phòng đã thu hút sự quan tâm của rất đông sinh viên Đại học Công nghiệp Hà Nội. Nhiều sinh viên tham dự Hội thảo đã có được cơ hội thực tập tốt và rất nhiều sinh viên đã trúng tuyển, có thể đi làm ngay sau khi tốt nghiệp.
+				                </p>
+				                </div>
+				                <span class="read-more">
+				                <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/61102">Xem thêm</a>
+				                </span>
+				                </div>
+				    </div>
+				</div>
+				<div class="entry">
+				    <div class="row">
+				                <div class="col-md-4">
+				                    <div class="image-area">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/60632">
+				                            <img src="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/t70915.jpg" class="img-responsive" alt="" style="max-height:200px;margin:0 auto;">
+				                        </a>
+				                    </div>
+				                </div>
+				                <div class="col-md-8">
+				                    <h2 class="entry-title">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/60632">Trao bằng Thạc sĩ đợt 2 năm 2018 cho 111 học viên và Khai giảng đào tạo Thạc sĩ khóa 8 đợt 1 ( năm 2018 – 2020)</a>
+				                    </h2>
+				                <div class="entry-meta">
+				                <ul class="list-inline">
+				                    <li>
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/news/sinh-vien-tuong-lai#">
+				                            <i class="fa fa-calendar"></i>Thứ Tư, 08:17 12/09/2018
+				                        </a>
+				                    </li>
+				                </ul>
+				                </div>
+				                <div class="entry-text">
+				                <p>
+				                    Sáng ngày 08/09/2018, Đại học Công nghiệp Hà Nội tổ chức Lễ trao bằng Thạc sĩ lần 2 năm 2018 cho 111 học viên cao học của 6 chuyên ngành và tổ chức Khai giảng đào tạo Thạc sĩ khóa 8 đợt 1 (năm 2018 - 2020) cho 86 học viên xuất sắc trúng tuyển vào 8 chuyên ngành.
+				                </p>
+				                </div>
+				                <span class="read-more">
+				                <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/60632">Xem thêm</a>
+				                </span>
+				                </div>
+				    </div>
+				</div>
+				<div class="entry">
+				    <div class="row">
+				                <div class="col-md-4">
+				                    <div class="image-area">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/60530">
+				                            <img src="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/t70532.jpg" class="img-responsive" alt="" style="max-height:200px;margin:0 auto;">
+				                        </a>
+				                    </div>
+				                </div>
+				                <div class="col-md-8">
+				                    <h2 class="entry-title">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/60530">Chọn Đại học Công nghiệp Hà Nội để xây dựng tương lai, tại sao ?</a>
+				                    </h2>
+				                <div class="entry-meta">
+				                <ul class="list-inline">
+				                    <li>
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/news/sinh-vien-tuong-lai#">
+				                            <i class="fa fa-calendar"></i>Thứ Hai, 10:34 20/08/2018
+				                        </a>
+				                    </li>
+				                </ul>
+				                </div>
+				                <div class="entry-text">
+				                <p>
+				                    Trở thành sinh viên ĐHCNHN (HaUI) bạn sẽ có cơ hội tiếp cận môi trường học tập gắn liền với thực tiễn và ứng dụng, một trường đại học có lịch sử 120 năm xây dựng và phát triển, với cơ sở vật chất hiện đại; đội ngũ giảng viên trình độ cao, nhiều kinh nghiệm và nhiệt huyết; chương trình đào tạo tiên tiến; môi trường rèn luyện năng động và sáng tạo.
+				                </p>
+				                </div>
+				                <span class="read-more">
+				                <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/60530">Xem thêm</a>
+				                </span>
+				                </div>
+				    </div>
+				</div>
+                <div class="pagination-wrap">
+                        <ul class="pagination pagination-lg">
+                            <li class="active">
+                                <a href="https://www.haui.edu.vn/vn/page/cthssv/news/sinh-vien-tuong-lai/?p=1">1</a>
+                            </li>
+                            <li>
+                                <a href="https://www.haui.edu.vn/vn/page/cthssv/news/sinh-vien-tuong-lai/?p=2">2</a>
+                            </li>
+                            <li>
+                                <a href="https://www.haui.edu.vn/vn/page/cthssv/news/sinh-vien-tuong-lai/?p=2">»</a>
+                            </li>
+                        </ul>
+                </div>
+			</div>
+            
+			<div class="col-md-4">
+				  <div class="irs-side-bar">
+				   <div class="irs-search-box">
+				    <form name="search_box" target="_blank" action="https://www.google.com/cse">
+				        <div class="input-group">
+				            <input type="hidden" value="013997950645886840242:mskjsh1e7z8" name="cx">
+				            <input type="hidden" value="UTF-8" name="ie">
+				            <input placeholder="Tìm kiếm..." class="form-control" name="q" type="text">
+				            <span class="input-group-btn">
+				                <button type="submit" class="btn">
+				                    <i class="fa fa-search"></i>
+				                </button>
+				            </span>
+				        </div>
+				    </form>
+				   </div>
+				   <div class="irs-post">
+				        <h3 class="irs-sidebar-title">Tin tiêu điểm</h3>
+				                    <div class="irs-post-item" style="padding-left: 85px;">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/62187">
+				                            <img src="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/t75982.jpg" alt="Chương trình đặc sắc “Dấu ấn Hà Nam” cho sinh viên Đại học khóa 13">
+				                            <p>Chương trình đặc sắc “Dấu ấn Hà Nam” cho sinh viên Đại học khóa 13</p>
+				                        </a>
+				                        <span>Thứ Tư, 13:52 08/05/2019</span>
+				                    </div>
+				                    <div class="irs-post-item">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/61152">
+				                            <p>Giải thưởng Giọt hồng - Giải thưởng của lòng nhân ái</p>
+				                            <span>Thứ Sáu, 14:43 14/12/2018</span>
+				                        </a>
+				                    </div>
+				                    <div class="irs-post-item" style="padding-left: 85px;">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/61096">
+				                            <img src="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/t72615.jpg" alt="Tổng kết hoạt động và trao học bổng Quỹ khuyến học &quot;Nguyễn Thanh Bình&quot; năm học 2017-2018">
+				                            <p>Tổng kết hoạt động và trao học bổng Quỹ khuyến học "Nguyễn Thanh Bình" năm học 2017-2018</p>
+				                        </a>
+				                        <span>Thứ Sáu, 06:40 30/11/2018</span>
+				                    </div>
+				                    <div class="irs-post-item" style="padding-left: 85px;">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/61009">
+				                            <img src="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/t72363.jpg" alt="Tưng bừng “Ngày hội Sinh viên yêu thích Tiếng Anh - UNI – COL English Language Championships HaUI” năm 2018">
+				                            <p>Tưng bừng “Ngày hội Sinh viên yêu thích Tiếng Anh - UNI – COL English Language Championships HaUI” năm 2018</p>
+				                        </a>
+				                        <span>Thứ Ba, 09:32 13/11/2018</span>
+				                    </div>
+				                    <div class="irs-post-item" style="padding-left: 85px;">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/60569">
+				                            <img src="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/t70675.jpg" alt="Sinh viên Đại học Công nghiệp Hà Nội tham dự cuộc thi tay nghề ASEAN lần thứ 12">
+				                            <p>Sinh viên Đại học Công nghiệp Hà Nội tham dự cuộc thi tay nghề ASEAN lần thứ 12</p>
+				                        </a>
+				                        <span>Thứ Bảy, 10:15 25/08/2018</span>
+				                    </div>
+				                    <div class="irs-post-item" style="padding-left: 85px;">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/60530">
+				                            <img src="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/t70532.jpg" alt="Chọn Đại học Công nghiệp Hà Nội để xây dựng tương lai, tại sao ?">
+				                            <p>Chọn Đại học Công nghiệp Hà Nội để xây dựng tương lai, tại sao ?</p>
+				                        </a>
+				                        <span>Thứ Hai, 10:34 20/08/2018</span>
+				                    </div>
+				                    <div class="irs-post-item">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/59008">
+				                            <p>Thông báo học bổng Brother năm học 2017-2018 cho sinh viên Tỉnh Hải Dương</p>
+				                            <span>Thứ Tư, 14:48 23/08/2017</span>
+				                        </a>
+				                    </div>
+				                    <div class="irs-post-item">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/58867">
+				                            <p>Kế hoạch trao học bổng Nguyễn Thanh Bình năm học 2015-2016</p>
+				                            <span>Thứ Năm, 10:07 15/06/2017</span>
+				                        </a>
+				                    </div>
+				                    <div class="irs-post-item" style="padding-left: 85px;">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/58690">
+				                            <img src="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/t66083.jpg" alt="Gặp mặt nhân ngày Người khuyết tật Việt Nam 18-4">
+				                            <p>Gặp mặt nhân ngày Người khuyết tật Việt Nam 18-4</p>
+				                        </a>
+				                        <span>Thứ Tư, 07:47 19/04/2017</span>
+				                    </div>
+				                    <div class="irs-post-item" style="padding-left: 85px;">
+				                        <a href="https://www.haui.edu.vn/vn/page/cthssv/detail/58221">
+				                            <img src="./Sinh viên - ĐẠI HỌC CÔNG NGHIỆP HÀ NỘI __ HaUI_files/t64767.jpg" alt="Tổng kết công tác Văn hóa - Văn nghệ năm 2016">
+				                            <p>Tổng kết công tác Văn hóa - Văn nghệ năm 2016</p>
+				                        </a>
+				                        <span>Thứ Hai, 07:44 23/01/2017</span>
+				                    </div>
+
+				   </div>
+				  </div>
+				</div>
+		  </div>
+	   </div>
+    </section>
+    <!-- Phần cuối -->
+    <footer class="irs-footer-field">
+        <div class="container-8">
+            <div class="row animatedParent animateOnce animateOnce">
+                <div class="col-md-1 hidden-sm">
+                    <div class="irs-footer-about">
+                        <a href="/vn" style="text-decoration: none;">
+                            <img class="irs-foooter-logo" src="https://www.haui.edu.vn/dnn/web/haui/assets/images/logo.png" alt="" style="padding-left: 100px;">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="irs-footer-heading" style="padding-left: 100px;">Bản đồ chỉ dẫn</h4>
+                    <br>
+                    <p style="margin-top: -20px; padding-left: 100px;">Trường Đại học Công nghiệp Hà Nội</p>
+                    <div class="irs-mailbox">
+                        <div class="irs-footer-contact">
+                            <iframe width="100%" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=%C4%91%E1%BA%A1i%20h%E1%BB%8Dc%20c%C3%B4ng%20nghi%E1%BB%87p%20h%C3%A0%20n%E1%BB%99i&amp;key=AIzaSyCTBPYg-pwFoF2jkiXML5TtyXZTJ8UTlkU" allowfullscreen="" style="padding-left: 30px;"></iframe>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="irs-footer-contact">
+                        <h4 class="irs-footer-heading">Trụ sở chính</h4>
+                        <br>
+                        <div class="irs-mailbox">
+                            <p>
+                                <i class="fas fa-location" style="padding-right: 10px;"></i>
+                                Số 298 đường Cầu Diễn, quận Bắc Từ Liêm, Hà Nội
+                            </p>
+                            <p>
+                                <i class="fa fa-phone" aria-hidden="true" style="padding-right: 10px;"></i>
+                                +84 243 765 5121
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope" style="padding-right: 10px;"></i>
+                                Email: dhcnhn@haui.edu.vn
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="irs-footer-contact">
+                        <h4 class="irs-footer-heading">Các cơ sở khác</h4>
+                        <div class="irs-mailbox">
+                            <br>
+                            <p>
+                                <i class="fas fa-map-marker-alt" style="padding-right: 10px;"></i>
+                                Cơ sở 2: Phường Tây Tựu, quận Bắc Từ Liêm, Hà Nội
+                            </p>
+                            <p>
+                                <i class="fas fa-map-marker-alt" style="padding-right: 10px;"></i>
+                                Cơ sở 3: Phường Lê Hồng Phong, thành phố Phủ Lý, Hà Nam
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="irs-footer-contact">
+                        <h4 class="irs-footer-heading">Liên kết site</h4>
+                        <div class="irs-footer-link">
+                            <ul class="address">
+                                <li>
+                                    <a href="//www.haui.edu.vn" title="Trường Đại học Công nghiệp Hà Nội" style="color: white; font-size: 15px; text-decoration: none;">» Trường Đại học Công nghiệp Hà Nội</a>
+                                </li>
+                                <li>
+                                    <a href="//tuyensinh.haui.edu.vn" title="Cổng thông tin tuyển sinh" style="color: white; font-size: 15px; text-decoration: none;">» Thông tin tuyển sinh</a>
+                                </li>
+                                <li>
+                                    <a href="//egov.haui.edu.vn" title="Hành chính điện tử" style="color: white; font-size: 15px; text-decoration: none;">» Hành chính điện tử</a>
+                                </li>
+                                <li>
+                                    <a href="//elearning.haui.edu.vn" title="Đào tạo trực tuyến" style="color: white; font-size: 15px; text-decoration: none;">» Đào tạo trực tuyến</a>
+                                </li>
+                                <li>
+                                    <a href="//dttc.haui.edu.vn" title="Cổng thông tin đào tạo" style="color: white; font-size: 15px; text-decoration: none;">» Cổng thông tin đào tạo</a>
+                                </li>
+                                <li>
+                                    <a href="http://hauikhoinghiep.com" title="HaUI Khởi nghiệp" style="color: white; font-size: 15px; text-decoration: none;">» Khởi nghiệp cùng HaUI</a>
+                                </li>
+                                 <li>
+                                    <a href="http://thongtintuyensinhdaihoc.com/" title="Tuyển sinh đại học" style="color: white; font-size: 15px; text-decoration: none;">» Thông tin tuyển sinh đại học</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Trở lại phần đầu của trang chủ -->
+        <div class="container-9">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="back-to-the-top">
+                        <a href="index.html" style="color: white; font-size: 15px; text-decoration: none;">Copyright@2018 Đại Học Công Nghiệp Hà Nội</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
