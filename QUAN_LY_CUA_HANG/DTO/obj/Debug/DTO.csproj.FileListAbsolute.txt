@@ -1,0 +1,6 @@
+E:\HỆ QUẢN TRỊ CSDL\PROJECT\QUAN_LY_CUA_HANG\DTO\bin\Debug\DTO.dll
+E:\HỆ QUẢN TRỊ CSDL\PROJECT\QUAN_LY_CUA_HANG\DTO\bin\Debug\DTO.pdb
+E:\HỆ QUẢN TRỊ CSDL\PROJECT\QUAN_LY_CUA_HANG\DTO\obj\Debug\DTO.csprojAssemblyReference.cache
+E:\HỆ QUẢN TRỊ CSDL\PROJECT\QUAN_LY_CUA_HANG\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+E:\HỆ QUẢN TRỊ CSDL\PROJECT\QUAN_LY_CUA_HANG\DTO\obj\Debug\DTO.dll
+E:\HỆ QUẢN TRỊ CSDL\PROJECT\QUAN_LY_CUA_HANG\DTO\obj\Debug\DTO.pdb
